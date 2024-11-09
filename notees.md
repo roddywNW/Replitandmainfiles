@@ -10,3 +10,8 @@ This could be a new main compiler of mine.Just gotta see how hard it is to downl
 Btw i guess MD is just if you want a straight up notebook or something so I guess that is cool.
 
 I guess just use python type to analyze and understand code and when i have a good enough understanding then  I can try and edit the code to the version I want.
+
+Pygame doesn't worry on Roddy.py but it actually could and all id need is to search and watch videos for a tutorial
+
+
+The type one doesn't work on here for some reason,might have to only do it on Replit
