@@ -8,3 +8,5 @@ This could be a new main compiler of mine.Just gotta see how hard it is to downl
 
 
 Btw i guess MD is just if you want a straight up notebook or something so I guess that is cool.
+
+I guess just use python type to analyze and understand code and when i have a good enough understanding then  I can try and edit the code to the version I want.
