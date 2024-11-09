@@ -6,3 +6,5 @@ By the way to only way to make code in here or change is by the desktop version 
 
 This could be a new main compiler of mine.Just gotta see how hard it is to download other languages and have them work. 
 
+
+Btw i guess MD is just if you want a straight up notebook or something so I guess that is cool.
