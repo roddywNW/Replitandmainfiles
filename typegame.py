@@ -2,7 +2,7 @@ from getkey import getkey, keys
 import time
 import re
 import sys
-
+ 
 from colors import *
 
 def clear():
