@@ -4,7 +4,6 @@ from os import environ
 # the shell also works on bash
 environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'
 #This environ thing is to hide the pygame window
-
 #Don't forget to add music and when you do also find out how to get the files of music or if it's given online,also watch a video on how to do it.
 
 import random,os,time,pygame
