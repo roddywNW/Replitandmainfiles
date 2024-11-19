@@ -8,7 +8,8 @@ lives = 6
 #You found a letter, and you won, and you loss,etc.
 #Show how many letters there are in the word with spaces
 
-
+attempts = 6-lives
+#Make it so it copies the last amount of lives and if it doesn't change then it adds a stick.
 
 print("Welcome to hangman,just for you to know,all the words will be lowercase.Therefore,please guess in lowercase :).Also,sometimes the word won't have letters ,but numbers or stuff like that.\n")
 
