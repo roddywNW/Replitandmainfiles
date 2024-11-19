@@ -5,13 +5,14 @@ from os import environ
 environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'
 #This environ thing is to hide the pygame window
 #Don't forget to add music and when you do also find out how to get the files of music or if it's given online,also watch a video on how to do it.
-
-import random,os,time,pygame
+###To be honest i don't understand why pygame dont work.
+import random,os,time,pygame as py
+#import pygame as py makes it so you only have to type py to use the functions
 
 #For a sec I thought it was not randomizing because it was doing Ender alot but it is as it showed by a draw
 #pygame is gray because iit isn't being used.
 
-pygame.mixer.init()
+#pygame.mixer.init()
 
 #pygame.mixer.music.load('song1.mp3')
 #pygame.mixer.music.unload()
@@ -60,8 +61,11 @@ race_ability_list = ["Overbearing strength", "Overbearing agility", "Overbearing
 
 #This list states how im gonna do that like ask what move next and showing it.
 
-how_list = ["Slash = 1","Stab = 2","Punch = 3","Kick = 4","Bash = 5","etc, and I'll have to ask after every thingy,then change dmg to ability times multiplier and etc,then I have to also do agility","This gon take a minute and it sucks."]
-
+strength_ability_list = ["Slash = 1","Stab = 2","Punch = 3","Kick = 4","Bash = 5","etc, and I'll have to ask after every thingy,then change dmg to ability times multiplier and etc,then I have to also do agility","This gon take a minute and it sucks."]
+magic_ability_list = ["Mana ball","mana pool","Regeneration","Mana blade"]
+if "Mana ball" in magic_ability_list:
+  print("Hi")
+  #Just to test basically.I also have to do something about all these comments.Also create only max 3 ability lists.
 #Not using it yet,pretty much just to store ideas, and also to late maybe use the ideas from the list,and create more like add if it's effective,non-effective,super non-effective,super-effective,etc.
 #Also like you can only use abilities a certain amount of time so county that by "abilitynameuses = 10 so you  uses_left = "abilitynameuses" - "timesused".So you have used {abilityname} {uses_left} times.
 
