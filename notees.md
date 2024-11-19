@@ -17,3 +17,5 @@ Pygame doesn't worry on Roddy.py but it actually could and all id need is to sea
 The type one doesn't work on here for some reason,might have to only do it on Replit
 
 I guess just to update the files copy the code from the Codespaces into the thing in here.
+
+Add the hangman game to github as well.
