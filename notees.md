@@ -23,3 +23,4 @@ Add the hangman game to github as well.
 11/19/24 I added the hangman game from my phone by copying the code and putting it in the repository on github mobile and not it's transfered over here.
 
 Now I can code online,but like only if i really have free time like waiting on a bus or i finished everything in study block.
+Add some quality updates like less code for more accurate if statements in character builder
