@@ -1,6 +1,10 @@
 from os import environ
 #find out if i should change some lists to tuples by the networkchuck video
 
+#Should I just put the stats in a dictionary?
+
+
+
 # the shell also works on bash
 environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'
 #This environ thing is to hide the pygame window
@@ -162,18 +166,23 @@ while battle_commence == "Yes":
   if type2 == "Human" or type2 == "human":
     #print(f"{name2} is a human,the basis of races,your strength stat buff is 1.\n")
     race_buff2 = 1
+    
   elif type2 == "Elf" or type2 == "elf":
     race_buff2 = 0.75
     #print(f"{name2} has selected the Elf race,specializing in close combat in groups,being weak on your own grants a strength debuff of 0.75 the regular stat.\n")
+  
   elif type2 == "Wizard" or type2 == "wizard":
     race_buff2 = 1.25
     #print(f"{name2} has selected the wizard class,specializing in powerful magical spells,with a strength buff of 1.25.\n")
+  
   elif type2 == "Orc" or type2 == "orc":
     race_buff2 = 1.5
     #print(f"{name2} has selected the Orc race,specializing in strength over all,with a strength buff of 1.5.\n")
+  
   elif type2 == "Mink" or type2 == "mink":
     #print(f"{name2} has selected the Mink race,specializing in agility over strength,with a strength debuff of 0.5.\n")
     race_buff = 0.5
+  
   else:
     race_buff = 1
 
@@ -186,17 +195,24 @@ while battle_commence == "Yes":
   if player_one_place > player_two_place:
     print(f"{name1} goes first!")
     playerone_first = "Yes"
+    
   elif player_one_place < player_two_place:
+    
     print(f"{name2} goes first!")
     playerone_first = "No"
+    
   elif player_one_place == player_two_place:
+    
     print("Draw,both of you attack.")
     playerone_first = "Draw"  
 
   if playerone_first == "Yes":
     damage = float(race_buff) * float(strength1)
+    
     player_2_hp_left = float(health2) - float(damage)
+    
     print(f"{name1} attacks {name2} for {damage} damage, leaving them with {player_2_hp_left} health left.\n")
+    
     if player_2_hp_left <= 0:
       print(f"{name2} has died,{name1} wins!\n")
       exit()
@@ -205,6 +221,7 @@ while battle_commence == "Yes":
       health2 = player_2_hp_left
       continue
   elif playerone_first == "No":
+    
     damage = float(race_buff2) * float(strength2)
     player_1_hp_left = float(health1) - float(damage)
     print(f"{name2} attacks {name1} for {damage} damage, leaving them with {player_1_hp_left} hp left.\n")
@@ -217,12 +234,19 @@ while battle_commence == "Yes":
       
       continue
   elif playerone_first == "Draw":
+    
     damage = float(race_buff) * float(strength1)
+    
     draw_dmg = float(race_buff2) * float(strength2)
+    
     player_2_hp_left = float(health2) - float(damage)
+    
     player_1_hp_left = float(health1) - float(draw_dmg)
+    
     print(f"{name1} attacks {name2} for {damage} damage, leaving them with {player_2_hp_left} hp left.\n")
+    
     print(f"While {name2} attacks {name1} for {draw_dmg} damage leaving them with {player_1_hp_left} hp left.\n")
+    
     if player_2_hp_left <= 0:
       print("{name2} has died, {name1} wins!\n")
       exit()
