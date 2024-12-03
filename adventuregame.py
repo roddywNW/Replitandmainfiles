@@ -64,7 +64,8 @@ move_list = ["Slash","Stab","Punch","Kick","Bash","Fireball","Ice","Still thinki
 race_ability_list = ["Overbearing strength", "Overbearing agility", "Overbearing intelligence", "Overbearing force","Overbearing charisma(Has a chance to lower damage)"]
 
 #This list states how im gonna do that like ask what move next and showing it.
-
+#Like dict = {"Hi": 1}
+#print(dict["Hi"])
 strength_ability_list = ["Slash = 1","Stab = 2","Punch = 3","Kick = 4","Bash = 5","etc, and I'll have to ask after every thingy,then change dmg to ability times multiplier and etc,then I have to also do agility","This gon take a minute and it sucks."]
 magic_ability_list = ["Mana ball","mana pool","Regeneration","Mana blade"]
 #Change these abilities to dictionary for the name to have a : which is the damage or multiplier or smth
