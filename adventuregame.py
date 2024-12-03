@@ -67,6 +67,7 @@ race_ability_list = ["Overbearing strength", "Overbearing agility", "Overbearing
 
 strength_ability_list = ["Slash = 1","Stab = 2","Punch = 3","Kick = 4","Bash = 5","etc, and I'll have to ask after every thingy,then change dmg to ability times multiplier and etc,then I have to also do agility","This gon take a minute and it sucks."]
 magic_ability_list = ["Mana ball","mana pool","Regeneration","Mana blade"]
+#Change these abilities to dictionary for the name to have a : which is the damage or multiplier or smth
 if "Mana ball" in magic_ability_list:
   print("Hi")
   #Just to test basically.I also have to do something about all these comments.Also create only max 3 ability lists.
